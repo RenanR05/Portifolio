@@ -1,0 +1,132 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Foto */
+#photo {
+    width: 1495px;
+    height: 713px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+nav {
+    color: white;
+    font-size: larger;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+nav > ul > div > li > a {
+    color: blueviolet;
+}
+
+/* textos */
+.text {
+    margin: 0px 10px 25px 20px;
+    text-decoration: none;
+    font-family: Varela Round;
+    font-size: medium;
+}
+
+.left {
+    margin-left: 100px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+/* estilizando texto */
+.text:hover {
+    color: rgb(212, 212, 212);
+    transition: 0.80s;
+}
+
+.nomes:hover {
+    color: rgb(212, 212, 212);
+    transition: 0.80s;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-between;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 40px;
+    list-style: none;
+    font-family: Varela Round;
+}
+
+#imgInicial {
+    width: 100%;
+}
+
+.li-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.li-2 > p {
+    display: flex;
+    justify-content: center;
+}
+
+.nome {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.nome-2 {
+    margin-top: 100px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#linguagens {
+    padding: 40px 0px 0px 645px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contatos {
+    padding: 40px 0px 0px 677px;
+    display: flex;
+    flex-direction: row;
+}
+
+.names {
+    padding: 30px 0px 0px 0px;
+    list-style-type: none;
+}
+
+#contatos > a > img {
+    width: 40px;
+}
